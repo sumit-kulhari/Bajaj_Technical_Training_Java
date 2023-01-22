@@ -1,0 +1,203 @@
+Core java:
+
+Day 3:
+
+Introduction :
+Java is simple object oriented multithreaded platform independent robust portable and secure programming language.
+
+OOPS concepts : Object , class , Encapsulation, Abstraction, Inheritance, Polymorphism, late binding / Dynamic binding
+
+We can develop standalone application , web application , enterprise application, mobile application using java
+
+Memory management:
+JVM(java virtual machine)
+It is an abstract machine. It is a specification that provides runtime environment in which java byte code can be executed . It allows a system to run a program
+
+The JVM performs following operations :
+Loads code
+Verifies code
+Executes code
+Provides runtime environment
+Working with OOPS
+
+OOPS stands for object oriented Programming
+
+Following are the oops concepts :
+Object
+Class 
+Encapsulation 
+Abstraction
+Inheritance
+Polymorphism
+Late binding / dynamic binding 
+Message passing
+
+Object  its real world entity which exists and can be defined 
+Any thing which we can touch , feel or imagine is object
+Every object has:
+1. Property /attribute/state
+2. Behaviour / function
+3. Identity
+
+Class:
+
+Eg:
+Class className{
+// class variables
+
+// Methods
+
+// blocks
+
+}
+Class employee{
+Int emptied;
+String name;
+Double salary;
+//methods
+}
+
+Creating object: className objName  = new ClassName();
+Eg
+
+Employee emp1 = new employee();
+Employee emp2 = new employee();
+Employee emp3 = new employee();
+
+String and stringBuffer
+
+String sequence of characters. In java string is data type. In java string is class.
+String used to represent sequence of characters which are immutable in nature
+
+When we use stringbuffer then the original string will also be changed and in String we create a new copy of the assigned string ;
+
+String builder:
+
+Differences between string , Stringbuffer and string builder
+
+Day 4
+
+Relations in Classes:
+Inheritance
+Composition
+Aggregation
+Eg of composition
+Public static void main()
+{
+Customer c1 = new Customer();
+C1.stcid(101);
+C1.setname(‘jam’);
+Account account = c1.getAccount();
+Account.setAccountnumber(103403);
+Account.setbalance(239492);
+
+We can use testing method to display directly 
+
+Loosely coupled - aggregation
+Tightly coupled - composition 
+Inheritance - parent child relationship
+
+In inheritance we usually create object of the child class
+Members of the parent class should be declared as protected rather than public
+Super keyword can be used to call the parent class parameterised constructor
+
+Super keyword must be used in the child classes 
+
+Abstract method / abstract classes:
+Partially defined class
+The class in which it is inherited that must define all the methods of abstract class
+An abstract class can contain normal methods but an abstract method cannot be declared without declaring an abstract class
+We can create variable of that abstract class
+
+Exception handling:
+
+Run time error occur in program which stops execution of program or application abnormally 
+
+Its events which disturbs the normal flow of execution
+Exception is class present in java.lang
+
+To avoid this abnormal interruption we use mechanism called exception handling 
+
+Day 5:
+
+User Defined exception 
+
+Creating our own exception is known as custom exception or user defined execution.
+Business logic exception : These are the exceptions related to business workflow. It is useful for the application users or the developers to understand the exact problem
+Eg :
+invalidAgeException 
+CaryEmptyException
+EvenException
+OddException
+
+Nested try catch exception
+
+Filenotfound exception is a derived class from IOexception
+
+Filenotfound :
+When file is not available 
+When. Read access is denied 
+
+IOexception
+Invalid encoding
+
+To read file in Java we can use Fileinputstream 
+To write into a file FileoutputStream is used
+
+FileInputStream(File file)
+Creates a FileInputStream by opening a connection to an actual file, the file named by the File object file in the file system.
+FileInputStream(FileDescriptor fdObj)
+Creates a FileInputStream by using the file descriptor fdObj, which represents an existing connection to an actual file in the file system.
+FileInputStream(String name)
+Creates a FileInputStream by opening a connection to an actual file, the file named by the path name name in the file system.
+
+Collection framework
+1. Arraylist
+2. Vector
+3. Hashset
+4. Linkedset
+5. Treeset
+6. Hashmap
+7. Linkedhashmap
+8. Treetop
+There is a scope of ambiguity in set 
+To remove it we use equals and hashcode method
+
+Comparable and comparator are used to perform sorting on collections (object of emp class)
+They both are interfaces
+Comparable will change the original class
+Single sorting sequence can only be performed 
+Comparator works for everything at the same time
+
+Eg 
+Collections.sort(list) method;
+
+Collections.sort(list,Comparator) method;
+
+Map:
+Store data in key and value 
+Lookup by key and get its corresponding value as result
+No duplicate keys
+
+Different operations on Strams :
+Intermediate operations
+
+Day 6
+
+Map:
+The map method is used to return a stream consisting of the results of applying the given function to the elements of this stream
+Eg List number = Arrays.asList(2,3,4,5);
+List square = number.stream().map(x->x*x).collect(Collectors.toList());
+
+Different operations on Streams:
+Collect :
+The collect method is used to return the result of the intermediate operations performed on the stream
+List number = Arrays.asList(2,3,5);
+Set square = number.stream().map(x->x*x).collect(Collections.toSet());
+
+ForEach
+
+Version control
+
+Git and gitlab
+
