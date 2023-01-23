@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6d20fe65-fd1b-4ccd-bcef-d66820fff0db" name="Changes" comment="Added files to exceptions package" />
+    <list default="true" id="6d20fe65-fd1b-4ccd-bcef-d66820fff0db" name="Changes" comment="Updated Empty cart exception" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -250,7 +250,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674482809517</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Updated Empty cart exception">
+      <created>1674483180790</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1674483180790</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -330,6 +337,7 @@
     <MESSAGE value="Updated java notes" />
     <MESSAGE value="added sample file" />
     <MESSAGE value="Added files to exceptions package" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added files to exceptions package" />
+    <MESSAGE value="Updated Empty cart exception" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated Empty cart exception" />
   </component>
 </project>
