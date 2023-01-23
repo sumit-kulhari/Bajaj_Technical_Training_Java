@@ -4,14 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6d20fe65-fd1b-4ccd-bcef-d66820fff0db" name="Changes" comment="added sample file">
-      <change afterPath="$PROJECT_DIR$/src/com/training/exceptions/CollectionTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/training/exceptions/MyCustomComparator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/training/exceptions/TeamScoreCompare.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_22_01_23__1_33_pm__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_22_01_23__1_33_pm__Changes_.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="6d20fe65-fd1b-4ccd-bcef-d66820fff0db" name="Changes" comment="Added files to exceptions package" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -52,7 +45,9 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2KRyZ7Iej1RWWhLlJVaH2YvrKPF" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -248,7 +243,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674452084298</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Added files to exceptions package">
+      <created>1674482809517</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1674482809517</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -327,6 +329,7 @@
     <MESSAGE value="Added Lambda example" />
     <MESSAGE value="Updated java notes" />
     <MESSAGE value="added sample file" />
-    <option name="LAST_COMMIT_MESSAGE" value="added sample file" />
+    <MESSAGE value="Added files to exceptions package" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added files to exceptions package" />
   </component>
 </project>

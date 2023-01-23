@@ -46,6 +46,7 @@ public class EmptyCart {
         l.add("Soap");
         l.add("Detergent");
         l.add("Deodorant");
+        l.add("Scooty");
 
         display(l);
     }
