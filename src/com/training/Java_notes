@@ -226,6 +226,22 @@ git clone --->> used to fetch the entire project from github to local machine
 git diff---->> shows difference between the workspace and staging area
 git diff head--->> shows the diff between the workspace and local repository
 
+Git branching:
+Branching means you diverge from the main line of development and continue to do work without messing with that main line.
+
+Create branch :
+git branch branch-name
+
+Checkout branch:
+git checkout branch-name
+
+Merge new branch to master branch:
+First checkout to master branch
+git checkout master
+
+git merge branch-name
+
+git push -u origin master
 
 
 
