@@ -201,3 +201,31 @@ Version control
 
 Git and gitlab
 
+Day 7:
+Git is a distributed development
+Each dev has a local copy of the development history
+
+Sonar tool:
+Code review reports are generated and sent to devs
+
+Jenkins:
+Continuous integration and deployment ,
+delivers working copy to developer
+
+Gitlab:
+Gitlab is a complete devops platform delivered as a single application
+
+Working directory ——>>> git add——>> staging area——>>> git commit ———>>>local repository--->>> git push --->> remote repo
+
+git reset <commit> used to remove the commit and rollback
+git reset <file> used to reset the git add file_name command
+
+git fetch --->> used to get the code(changes) from the remote repo to the local repo
+git clone --->> used to fetch the entire project from github to local machine
+
+git diff---->> shows difference between the workspace and staging area
+git diff head--->> shows the diff between the workspace and local repository
+
+
+
+
