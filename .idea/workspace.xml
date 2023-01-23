@@ -5,7 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6d20fe65-fd1b-4ccd-bcef-d66820fff0db" name="Changes" comment="added sample file">
-      <change beforePath="$PROJECT_DIR$/src/com/training/Java_notes" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/training/Java_notes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/training/exceptions/CollectionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/training/exceptions/MyCustomComparator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/training/exceptions/TeamScoreCompare.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_22_01_23__1_33_pm__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_22_01_23__1_33_pm__Changes_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,7 +93,46 @@
       <recent name="$PROJECT_DIR$/src/com/training/exceptions1" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MyLambda">
+  <component name="RunManager" selected="Application.EmptyCart">
+    <configuration name="Calculate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.training.area.Calculate" />
+      <module name="Java_training" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.training.area.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CollectionTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.training.exceptions.CollectionTest" />
+      <module name="Java_training" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.training.exceptions.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EmptyCart" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.training.exceptions.EmptyCart" />
+      <module name="Java_training" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.training.exceptions.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MyLambda" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.training.assignment.MyLambda" />
       <module name="Java_training" />
@@ -115,52 +159,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestAge" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.training.exceptions.TestAge" />
-      <module name="Java_training" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.training.exceptions.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestCollection" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.training.collections.TestCollection" />
-      <module name="Java_training" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.training.collections.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestException" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.training.exceptions.TestException" />
-      <module name="Java_training" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.training.exceptions.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.EmptyCart" />
+        <item itemvalue="Application.CollectionTest" />
+        <item itemvalue="Application.Calculate" />
         <item itemvalue="Application.MyLambda" />
         <item itemvalue="Application.MyMap" />
-        <item itemvalue="Application.TestCollection" />
-        <item itemvalue="Application.TestException" />
-        <item itemvalue="Application.TestAge" />
       </list>
     </recent_temporary>
   </component>
