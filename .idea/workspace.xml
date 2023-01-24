@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6d20fe65-fd1b-4ccd-bcef-d66820fff0db" name="Changes" comment="Updated Empty cart exception" />
+    <list default="true" id="6d20fe65-fd1b-4ccd-bcef-d66820fff0db" name="Changes" comment="added sample file">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/training/Java_notes" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/training/Java_notes" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -45,9 +48,7 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2KRyZ7Iej1RWWhLlJVaH2YvrKPF" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
-    <ConfirmationsSetting value="2" id="Add" />
-  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -88,20 +89,7 @@
       <recent name="$PROJECT_DIR$/src/com/training/exceptions1" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.EmptyCart">
-    <configuration name="Calculate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.training.area.Calculate" />
-      <module name="Java_training" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.training.area.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.CollectionTest">
     <configuration name="CollectionTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.training.exceptions.CollectionTest" />
       <module name="Java_training" />
@@ -154,13 +142,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestCollection" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.training.collections.TestCollection" />
+      <module name="Java_training" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.training.collections.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.EmptyCart" />
         <item itemvalue="Application.CollectionTest" />
-        <item itemvalue="Application.Calculate" />
+        <item itemvalue="Application.EmptyCart" />
         <item itemvalue="Application.MyLambda" />
         <item itemvalue="Application.MyMap" />
+        <item itemvalue="Application.TestCollection" />
       </list>
     </recent_temporary>
   </component>
@@ -243,21 +244,7 @@
       <option name="project" value="LOCAL" />
       <updated>1674452084298</updated>
     </task>
-    <task id="LOCAL-00010" summary="Added files to exceptions package">
-      <created>1674482809517</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1674482809517</updated>
-    </task>
-    <task id="LOCAL-00011" summary="Updated Empty cart exception">
-      <created>1674483180790</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1674483180790</updated>
-    </task>
-    <option name="localTasksCounter" value="12" />
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -336,8 +323,6 @@
     <MESSAGE value="Added Lambda example" />
     <MESSAGE value="Updated java notes" />
     <MESSAGE value="added sample file" />
-    <MESSAGE value="Added files to exceptions package" />
-    <MESSAGE value="Updated Empty cart exception" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated Empty cart exception" />
+    <option name="LAST_COMMIT_MESSAGE" value="added sample file" />
   </component>
 </project>

@@ -243,5 +243,34 @@ git merge branch-name
 
 git push -u origin master
 
+Build tool Automation----->>>> Maven
 
+In the software development environment developers job is to code , compile , test package and deploy into production env.
+
+Maven: automatically executes all the test cases and generates reports
+A build tool is a tool that helps to build the processes such as compiling, testing, packaging from source code to an executable
+applications and deploying it into the production env
+
+war file ---->>> for web applications
+jar file ---->>> for java applications
+
+Build automation Phases
+1) Validate: validate the project is correct and all necessary information is available
+2) Compile: compile the source code of the project
+3) Test: test the compiled source code using a suitable unit testing framework
+4) Package: take the compiled code and package it in its distributable format such as a JAR.
+5) Verify: run any checks on results of integration tests to ensure quality criteria are met.
+6) Install: install the package into the local repo, for use as a dependency in other projects locally
+7) Deploy: done in the build environment, copies the final package to the remote repository
+ for sharing with other developer and project
+
+Day 8
+Maven commands:
+1) mvn -v ------>>> to check the version of maven
+2) mvn compile------>> to compile the maven project
+3) mvn test-compile --->>> to compile the test files of the maven project
+4) mvn package-------->> to build the maven project
+5) mvn install ---->>> to create the build result in the target folder of the maven project
+6) mvn site ------>>>> to generate a site based upon information in the POM
+7) mvn clean------>>>> to delete the data present in the target folder
 
