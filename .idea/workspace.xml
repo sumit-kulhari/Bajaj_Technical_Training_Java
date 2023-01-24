@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6d20fe65-fd1b-4ccd-bcef-d66820fff0db" name="Changes" comment="added sample file">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/training/Java_notes" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/training/Java_notes" afterDir="false" />
-    </list>
+    <list default="true" id="6d20fe65-fd1b-4ccd-bcef-d66820fff0db" name="Changes" comment="Updated Java notes" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -27,6 +24,11 @@
         <option name="argument" value="--follow-tags" />
         <option name="title" value="Current Branch" />
       </GitPushTagMode>
+    </option>
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="ROOT_SYNC" value="SYNC" />
@@ -244,7 +246,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674452084298</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Updated Java notes">
+      <created>1674534313662</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1674534313662</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -297,11 +306,6 @@
         </entry>
       </map>
     </option>
-    <option name="OPEN_GENERIC_TABS">
-      <map>
-        <entry key="79d96d78-3ef8-4032-9495-f3f3445fce25" value="TOOL_WINDOW" />
-      </map>
-    </option>
     <option name="RECENT_FILTERS">
       <map>
         <entry key="Paths">
@@ -323,6 +327,7 @@
     <MESSAGE value="Added Lambda example" />
     <MESSAGE value="Updated java notes" />
     <MESSAGE value="added sample file" />
-    <option name="LAST_COMMIT_MESSAGE" value="added sample file" />
+    <MESSAGE value="Updated Java notes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated Java notes" />
   </component>
 </project>
